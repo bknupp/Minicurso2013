@@ -101,7 +101,7 @@ public class Fase extends JPanel implements ActionListener {
 
 		
 		
-		if (inimigos.size() == 0) {
+		if (inimigos.size() == 0 && vidas>0) {
 			colidiu = false;
 			ImageIcon ganhei = new ImageIcon("res\\venceu.jpg");
 			graficos.drawImage(ganhei.getImage(), 0, 0, null);
